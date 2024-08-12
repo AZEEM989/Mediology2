@@ -1,4 +1,4 @@
 # Mediology2
 This is my first full website.
 <br>
-Owner - Azeem Ur Rehman
+Owner - Azeem Rehman

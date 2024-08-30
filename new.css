@@ -1,0 +1,295 @@
+.bg-body-tertiary {
+    background-color: cadetblue;
+}
+
+.navbar-brand img {
+    height: 15vh;
+    width: 7vw;
+}
+
+.nav-item a {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-menu .dropdown-item {
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #233B53;
+    color: white;
+}
+
+.illus {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.illus img {
+    width: 50vw;
+    height: 80vh;
+    backface-visibility: visible;
+}
+
+.illus .h1 {
+    color: #233B53;
+    margin-top: 25vh;
+    margin-left: 4vw;
+    font-size: 3.5vw;
+}
+
+.illus .wr p {
+
+    font-size: 1.8vw;
+    margin-left: 4vw;
+    color: #417290;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+}
+
+body .cardm {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15vh;
+}
+
+.cardm .card {
+    border-radius: 20px;
+}
+
+.cardm .card .card-img-top {
+    margin-top: -10px;
+}
+
+.line {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.line hr {
+    width: 20vw;
+    height: 1vh;
+    background-color: #233B53;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.line h1 {
+    color: #417290;
+    text-transform: uppercase;
+
+}
+
+.button button {
+    width: 10vw;
+    height: 7vh;
+    border-radius: 30px;
+    margin-left: 4vw;
+    background-color: #417290;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+}
+
+.button button:hover {
+    color: white;
+    background-color: #233B53;
+    box-shadow: 2px 2px 15px black;
+}
+
+.footer footer {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.5vw;
+    height: 15vh;
+    background-color: #417290;
+    font-size: 2vw;
+}
+.footer footer p{
+    margin-top: 3vh;
+    color: white;
+    font-size: 1vw;
+
+}
+
+.footer footer a {
+    color: white;
+    padding-left: 2vw;
+}
+
+.footer footer a:hover {
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+body .badge {
+    width: 80vw;
+    height: 30vh;
+    background-color: #233B53;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.badge1 {
+    width: 30vw;
+    height: 20vh;
+    background-color:#417290;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.badge1:hover{
+    box-shadow: 2px 2px 15px white;
+}
+.badge1 i{
+    font-size: 5vw;
+}
+
+.badge2 {
+    width: 30vw;
+    height: 20vh;
+    background-color:#417290;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.badge2:hover{
+    box-shadow: 2px 2px 15px white;
+} 
+.badge2 i{
+    font-size: 5vw;
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+        height: 10vh;
+        width: auto;
+    }
+
+    .illus img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .illus .h1 {
+        margin-top: 15vh;
+        font-size: 6vw;
+    }
+
+    .illus .wr p {
+        font-size: 4vw;
+    }
+
+    .container-fluid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardm {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button button {
+        width: 40vw;
+        height: 7vh;
+        font-size: 3vw;
+        margin-left: 0;
+    }
+
+    .footer footer {
+        margin-top: 5vh;
+        font-size: 3vw;
+    }
+    .footer footer p{
+        font-size: 2vw;
+    }
+    body .badge {
+        width: 80vw;
+        height: 80vh;
+        background-color: #233B53;
+        margin-left: 10vw;
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .badge1 {
+        width: 30vw;
+        height: 20vh;
+        background-color:#417290;
+        border-radius: 20px;
+        /* display:;
+        justify-content: space-evenly;
+        align-items: center; */
+        cursor: pointer;
+    }
+    .badge1:hover{
+        box-shadow: 2px 2px 15px white;
+    }
+    .badge1 i{
+        font-size: 5vw;
+    }
+    
+    .badge2 {
+        width: 30vw;
+        height: 20vh;
+        background-color:#417290;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        cursor: pointer;
+    }
+    .badge2:hover{
+        box-shadow: 2px 2px 15px white;
+    } 
+    .badge2 i{
+        font-size: 5vw;
+    }
+}
+
+/* For screens between 576px and 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Adjust styles as needed */
+}
+
+/* For screens between 768px and 991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Adjust styles as needed */
+}
+
+/* For screens between 992px and 1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Adjust styles as needed */
+}
+
+/* For screens larger than 1200px */
+@media (min-width: 1200px) {
+    /* Adjust styles as needed */
+}
